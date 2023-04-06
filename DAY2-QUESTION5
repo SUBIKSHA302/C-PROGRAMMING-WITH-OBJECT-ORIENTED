@@ -1,0 +1,33 @@
+/*5.  Find errors, if any, in the following c++ statements.
+(a) long Boat x.;
+(b) char *cp = vp;	
+(c)	int  code=three;	 
+(d)	int *p=new;	
+(e)	int const *p=total
+(g)	coast int  array_size;
+(h)         int & nurnber = 100;
+(i) float p=2345;
+(j) int else=234;
+(k) char a=’welcome’;*/
+
+//ANSWER
+(a)long int x;
+
+(b)char *cp = vp;//The pointer vp is not initialized so error will occur
+
+(c)int code=3;
+
+(d)int *p= new int;
+
+(e)NO ERROR
+
+(f)const int array_size;
+
+(h)int number=100;
+
+(i)NO ERROR
+
+(j)A keyword cannot be used as a variable so we can change the variable name:
+int a=234;
+
+(k)char a[] = "welcome";

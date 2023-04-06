@@ -1,0 +1,46 @@
+/* Identify the error in the following program.
+#include<iostream.h>
+#define pi 3.14
+ int squareArea(int &);
+int circlearea(int &) ; 
+voi d main()
+{
+int a=10;
+cout<< squareArea(A);
+cout<< circleArea(a) ;
+cout<<a<< endl ;
+}
+int squareArea(int &a)
+{
+return a *== a;
+}
+int circleArea(int &r)
+{
+return r = pi*r*r;
+) */
+
+//ANSWER
+
+#include <iostream>
+#define pi 3.14
+
+using namespace std;
+
+int squareArea(int &);
+int circleArea(int &);
+
+int main() {
+    int a = 10;
+    cout << squareArea(a);
+    cout << circleArea(a);
+    cout << a << endl;
+    return 0;
+}
+
+int squareArea(int &a) {
+    return a * a;
+}
+
+int circleArea(int &r) {
+    return pi * r * r;
+}

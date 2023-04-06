@@ -1,0 +1,17 @@
+/* Identify the error in the following program_
+Include<iostrearn..h>
+void main()
+ {
+Int num[] ={1,2,3,4,5,6,7};
+nurn [1]	=[1] num ?cout<<”success” : cout<<"Errior";*/
+
+//ANSWER
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num[] = {1, 2, 3, 4, 5, 6, 7};
+    num[1] = num[1] ? cout << "success" : cout << "error";
+    return 0;
+}

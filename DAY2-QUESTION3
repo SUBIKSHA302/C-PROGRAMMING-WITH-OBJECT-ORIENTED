@@ -1,0 +1,38 @@
+/* Identify the error in the following program. 
+#include<iostream.h>
+void main() I
+ switch(1)
+{
+defaul tt
+case 4: 
+case 5:
+break.; 
+case 1
+continue;
+case 2; case 3; break;
+i--;
+}
+} */
+
+//ANSWER
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    switch (1) {
+        default:
+        case 4:
+        case 5:
+            break;
+        case 1:
+            // continue statement not allowed in switch statement
+            break;
+        case 2:
+        case 3:
+            break;
+    }
+    return 0;
+}
+
