@@ -1,0 +1,17 @@
+QUESTION:
+What is the output
+#include<iostream>
+ 
+usingnamespacestd;
+intmain()
+{
+    if(!(cout<< "SIMATS"))
+    cout<<" SIMATS ";
+    else
+    cout<< "SCHOOL OF ENGINEERING ";
+     
+    return0;
+}
+ANSWER:
+The output of the code is:
+SIMATSSCHOOL OF ENGINEERING

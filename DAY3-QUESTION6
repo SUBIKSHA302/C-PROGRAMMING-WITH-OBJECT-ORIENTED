@@ -1,0 +1,17 @@
+QUESTION:
+6. Find the output for the program. 
+#include<iostream>
+ 
+usingnamespacestd;
+intmain()
+{
+  inta = 5;
+  intb = 5;
+  intsum = -( -a-b );
+  cout<< sum;
+  return0;
+}
+
+ANSWER:
+THE OUTPUT OF THE CODE IS:
+10

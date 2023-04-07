@@ -1,0 +1,16 @@
+QUESTION:
+ Idnetify the error for the following programs,
+#include<iostream>
+intmain()
+{
+cout<< "\"geeksforgeeks\"";
+}	
+
+ANSWER:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"\ geeksforgeeks\";
+ }

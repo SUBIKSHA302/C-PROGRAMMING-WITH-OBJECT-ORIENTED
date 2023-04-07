@@ -1,0 +1,15 @@
+QUESTION:
+Find the output of following code:
+ #include<iostream>
+ 
+usingnamespacestd;
+intmain()
+{
+   intn = 4;
+   n = n >> 2;
+   cout<< n;
+   return0;
+   
+   ANSWER:
+   THE OUTPUT OF THE CODE IS:
+   1

@@ -1,0 +1,18 @@
+QUESTON:
+Find the output of the following program
+#include<iostream>
+ 
+usingnamespacestd;
+intN = 10;
+ 
+intmain()
+{
+  staticintx = 1;
+  if(cout<< x << " "&& x++ < N &&main())
+  { }
+return0;
+}
+
+ANSWER:
+THE OUTPUT OF THE FOLLOWING CODE:
+1 2 3 4 5 6 7 8 9 10
